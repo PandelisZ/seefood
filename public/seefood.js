@@ -11,9 +11,18 @@ $( document ).ready(function() {
     if (input.files && input.files[0]) {
       var reader = new FileReader()
     
-      reader.onload = function(e) {
-        $('#preview').attr('src', e.target.result)
-      }
+
+      // reader.onload = function(e) {
+      //   $('#preview').attr('src', e.target.result)
+      // }
+
+      loadImage(
+        input.files[0],
+        function (img) {
+          $('.preview').append(img)
+        },
+        {orientation: true}
+      )
     
       reader.readAsDataURL(input.files[0])
     }
@@ -22,27 +31,27 @@ $( document ).ready(function() {
   var imageContains = function(clarifai, foodType, threshold) {
     var concepts = clarifai.outputs[0].data.concepts
   
-    console.log(concepts)
+    var isFoodType = false
   
     concepts.forEach(element => {
       if (element.name === foodType && element.value >= threshold) {
-        return true
+        isFoodType = true
       }
     })
   
-    return false
+    return isFoodType
   }
 
   $('input[type="file"]').change(function (event) {
     var files = event.target.files
     $('.preview').show()
+    $('.previewOverlay').show()
     $('.touchToSee').hide()
     showImagePreview(this)
 
     event.stopPropagation() // Stop stuff happening
     event.preventDefault() // Totally stop stuff happening
 
-    // START A LOADING SPINNER HERE
 
     // Create a formdata object and add the files
     var data = new FormData()
@@ -62,6 +71,8 @@ $( document ).ready(function() {
         if(data.status === 'success') {
           
           var containsFoodItem = imageContains(data.clarifai, 'sandwich', 0.90)
+          console.log(containsFoodItem)
+          $('.previewOverlay').hide()
 
           if (containsFoodItem == true) {
 
@@ -72,14 +83,14 @@ $( document ).ready(function() {
           }
         }
         else {
-          // Handle errors here
+          $('.previewOverlay').hide()
           console.log('ERRORS: ' + data.message)
         }
       },
       error: function(err) {
         // Handle errors here
         console.log('ERRORS: ' + err)
-        // STOP LOADING SPINNER
+        $('.previewOverlay').hide()
       }
     })
   })
