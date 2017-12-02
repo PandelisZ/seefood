@@ -25,10 +25,24 @@ h1,h2,h3 {
   font-style: normal;
   font-weight: bold;
   line-height: 68px;
-  font-size: 30px;
+  font-size: 26px;
   text-align: center;
   
   color: #D60000;
+}
+
+.preview {
+  display: none;
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  height: 100%;
+  z-index: 0;
+}
+
+.preview img {
+  width: 100%;
+  height: 100%;
 }
 
 .logo {
@@ -98,6 +112,7 @@ h1,h2,h3 {
   display: none;
   z-index: 1000;
   position: absolute;
+  font-size: 28px;
   bottom: 0px;
   width: 100%;
   text-align: center;
@@ -123,7 +138,7 @@ div#image-file {
   }
   
   input#image-file {
-    height: 30px;
+    height: 100px;
     cursor: pointer;
     position: absolute;
     top: 0px;
@@ -174,7 +189,6 @@ div#image-file {
 
 .cross .text {
   position: relative;
-  margin-bottom: 80px;
 }
 
 .cross .layer {
