@@ -1,0 +1,62 @@
+<svg width="360" height="222" viewBox="0 0 360 222" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Group 4</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(180 -148)">
+<g id="Group 4">
+<g id="Group 3.1">
+<g id="Vector 2">
+<g id="Canvas">
+<g id="Vector">
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="matrix(-1 -8.74228e-08 8.74228e-08 -1 180 370)" fill="#D60000"/>
+<mask id="mask0_outline_out">
+<rect id="mask0_outline_inv" fill="white" x="-4" y="-4" width="368" height="137" transform="matrix(-1 -8.74228e-08 8.74228e-08 -1 180 370)"/>
+<use xlink:href="#path0_fill" fill="black" transform="matrix(-1 -8.74228e-08 8.74228e-08 -1 180 370)"/>
+</mask>
+<g mask="url(#mask0_outline_out)">
+<use xlink:href="#path1_stroke_2x" transform="matrix(-1 -8.74228e-08 8.74228e-08 -1 180 370)" fill="#FFFFFF"/>
+</g>
+</g>
+<g id="Vector">
+<use xlink:href="#path2_fill" transform="matrix(-1 -8.74228e-08 8.74228e-08 -1 75 300)" fill="#D60000"/>
+<mask id="mask1_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="matrix(-1 -8.74228e-08 8.74228e-08 -1 75 300)"/>
+</mask>
+<g mask="url(#mask1_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="matrix(-1 -8.74228e-08 8.74228e-08 -1 75 300)" fill="#FFFFFF"/>
+</g>
+</g>
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="matrix(-1 -8.74228e-08 8.74228e-08 -1 180 370)" fill="#D60000"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g id="clear-button">
+<g id="Group">
+<g id="clear">
+<g id="Vector">
+<use xlink:href="#path4_fill" transform="translate(-36 185)" fill="#FFFFFF"/>
+<mask id="mask2_outline_out">
+<rect id="mask2_outline_inv" fill="white" x="-5" y="-5" width="75" height="75" transform="translate(-36 185)"/>
+<use xlink:href="#path4_fill" fill="black" transform="translate(-36 185)"/>
+</mask>
+<g mask="url(#mask2_outline_out)">
+<use xlink:href="#path5_stroke_2x" transform="translate(-36 185)"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 0 0L 360 0L 360 129L 0 129L 0 0Z"/>
+<path id="path1_stroke_2x" d="M 0 0L 0 -4L -4 -4L -4 0L 0 0ZM 360 0L 364 0L 364 -4L 360 -4L 360 0ZM 360 129L 360 133L 364 133L 364 129L 360 129ZM 0 129L -4 129L -4 133L 0 133L 0 129ZM 0 4L 360 4L 360 -4L 0 -4L 0 4ZM 356 0L 356 129L 364 129L 364 0L 356 0ZM 360 125L 0 125L 0 133L 360 133L 360 125ZM 4 129L 4 0L -4 0L -4 129L 4 129Z"/>
+<path id="path2_fill" d="M 152 76C 152 117.974 117.974 152 76 152C 34.026 152 0 117.974 0 76C 0 34.026 34.026 0 76 0C 117.974 0 152 34.026 152 76Z"/>
+<path id="path3_stroke_2x" d="M 148 76C 148 115.765 115.765 148 76 148L 76 156C 120.183 156 156 120.183 156 76L 148 76ZM 76 148C 36.2351 148 4 115.765 4 76L -4 76C -4 120.183 31.8169 156 76 156L 76 148ZM 4 76C 4 36.2351 36.2351 4 76 4L 76 -4C 31.8169 -4 -4 31.8169 -4 76L 4 76ZM 76 4C 115.765 4 148 36.2351 148 76L 156 76C 156 31.8169 120.183 -4 76 -4L 76 4Z"/>
+<path id="path4_fill" d="M 65 6.5L 58.5 0L 32.5 26L 6.5 0L 0 6.5L 26 32.5L 0 58.5L 6.5 65L 32.5 39L 58.5 65L 65 58.5L 39 32.5L 65 6.5Z"/>
+<path id="path5_stroke_2x" d="M 65 6.5L 67.1213 8.62132L 69.2426 6.5L 67.1213 4.37868L 65 6.5ZM 58.5 0L 60.6213 -2.12132L 58.5 -4.24264L 56.3787 -2.12132L 58.5 0ZM 32.5 26L 30.3787 28.1213L 32.5 30.2426L 34.6213 28.1213L 32.5 26ZM 6.5 0L 8.62132 -2.12132L 6.5 -4.24264L 4.37868 -2.12132L 6.5 0ZM 0 6.5L -2.12132 4.37868L -4.24264 6.5L -2.12132 8.62132L 0 6.5ZM 26 32.5L 28.1213 34.6213L 30.2426 32.5L 28.1213 30.3787L 26 32.5ZM 0 58.5L -2.12132 56.3787L -4.24264 58.5L -2.12132 60.6213L 0 58.5ZM 6.5 65L 4.37868 67.1213L 6.5 69.2426L 8.62132 67.1213L 6.5 65ZM 32.5 39L 34.6213 36.8787L 32.5 34.7574L 30.3787 36.8787L 32.5 39ZM 58.5 65L 56.3787 67.1213L 58.5 69.2426L 60.6213 67.1213L 58.5 65ZM 65 58.5L 67.1213 60.6213L 69.2426 58.5L 67.1213 56.3787L 65 58.5ZM 39 32.5L 36.8787 30.3787L 34.7574 32.5L 36.8787 34.6213L 39 32.5ZM 67.1213 4.37868L 60.6213 -2.12132L 56.3787 2.12132L 62.8787 8.62132L 67.1213 4.37868ZM 56.3787 -2.12132L 30.3787 23.8787L 34.6213 28.1213L 60.6213 2.12132L 56.3787 -2.12132ZM 34.6213 23.8787L 8.62132 -2.12132L 4.37868 2.12132L 30.3787 28.1213L 34.6213 23.8787ZM 4.37868 -2.12132L -2.12132 4.37868L 2.12132 8.62132L 8.62132 2.12132L 4.37868 -2.12132ZM -2.12132 8.62132L 23.8787 34.6213L 28.1213 30.3787L 2.12132 4.37868L -2.12132 8.62132ZM 23.8787 30.3787L -2.12132 56.3787L 2.12132 60.6213L 28.1213 34.6213L 23.8787 30.3787ZM -2.12132 60.6213L 4.37868 67.1213L 8.62132 62.8787L 2.12132 56.3787L -2.12132 60.6213ZM 8.62132 67.1213L 34.6213 41.1213L 30.3787 36.8787L 4.37868 62.8787L 8.62132 67.1213ZM 30.3787 41.1213L 56.3787 67.1213L 60.6213 62.8787L 34.6213 36.8787L 30.3787 41.1213ZM 60.6213 67.1213L 67.1213 60.6213L 62.8787 56.3787L 56.3787 62.8787L 60.6213 67.1213ZM 67.1213 56.3787L 41.1213 30.3787L 36.8787 34.6213L 62.8787 60.6213L 67.1213 56.3787ZM 41.1213 34.6213L 67.1213 8.62132L 62.8787 4.37868L 36.8787 30.3787L 41.1213 34.6213Z"/>
+</defs>
+</svg>

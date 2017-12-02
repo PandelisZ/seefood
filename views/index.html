@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>SeeFood</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400i,600,700,800" rel="stylesheet">  
+  <link rel="stylesheet" href="/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+  <script src="/seefood.js"></script>
+</head>
+<body>
+
+  <div class="app"><!-- This is where our app contents will go -->
+
+    <div class="header"><!-- This contains the header text and the tagline -->
+
+      <div class="logo">
+        <h1>SeeFood</h1>
+      </div>
+
+      <div class="tagline">
+        <h3>“The Shazam for Food”</h3>
+      </div>
+
+    </div>
+
+    <div class="container">
+
+      <div class="background">
+      </div>
+
+      <div class="cover">
+
+        <div class="content">
+            <h3 class="text-stroke">Let's Get Started</h3>
+        </div>
+       
+
+      </div>
+
+      <div class="content">
+
+      </div>
+
+    </div>
+
+    <div class="touchToSee">
+        <div class="button">
+            <img class="shutter" src="/circle.svg" width="70px" alt="">
+            <form class="form" enctype="multipart/form-data" action="/upload/image" method="post">
+              <input id="image-file" type="file" />
+            </form>
+        </div>
+        <h3 class="text-stroke">Touch to SEEFOOD</h3>
+    </div>
+
+    <div class="tick">
+        <div class="layer">
+            <img src="/tick.svg" alt="">
+        </div>
+        <div class="text">
+            <h3 class="text-stroke">Hotdog</h3>
+        </div>
+    </div>
+
+    <div class="cross">
+      <div class="layer">
+          <img src="/cross.svg" alt="">
+      </div>
+      <div class="text">
+          <h3 class="text-stroke">Not Hotdog</h3>
+      </div>
+    </div>
+
+  </div>
+  
+</body>
+</html>
